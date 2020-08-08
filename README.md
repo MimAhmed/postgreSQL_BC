@@ -1,35 +1,31 @@
-# postgreSQL_BC
+
+# PostgreSQL_Brilliant Cloud Research
 
 # Welcome to My Documentation
-
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
-
+This Tutorial is part of a  Cloud Research Project By **Brilliant Cloud Research Group** Bangladesh 
+* How To Install PostgreSQL on Windows: [https://bit.ly/30Ev1A7](https://bit.ly/30Ev1A7)
+* PostgreSQL Official Site: [https://www.postgresql.org](https://www.postgresql.org/)
 
 # What is PostgreSql ?
-
 **PostgreSQL** is a powerful, open source object-relational database system. PostgreSql uses sql as main query language.
-
-## Create files and folders
-
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
-
-## Switch to another file
-
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+# Why Use PostgreSql ?
+* PostgreSQL is a free open source software (OSS) 
+* PostgreSQL is scalable, and it gives high performance.
+* PostgreSQL is very reliable; it rarely crashes. Also, PostgreSQL is ACID  
+compliant, which means that it can tolerate some hardware failure. 
 
 ## Create a Database
-
 You can use *CREATE DATABASE* command to Create a Database
-![Screen Shot
-](https://photos.app.goo.gl/mACTV4CtSnTZR7G46)
+**Example:**
+```
+CREATE DATABASE Student;
+```
+![CREATE DATABASE](https://i.ibb.co/9tz2tQB/CREATE-DATABASE.png)
 
-
-
-
-## Delete a file
-
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
-
-## Export a file
-
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
+## Delete a Database
+You can use *DROP DATABASE* command to Delete a Database
+**Example:**
+```
+DROP DATABASE Student;
+```
+![DELETE DATABASE](https://i.ibb.co/Z11S0Fg/DELETE-DATABASE.png)
